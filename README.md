@@ -1,2 +1,1 @@
-# coding
-LeetCode  etc.
+# leetCode
