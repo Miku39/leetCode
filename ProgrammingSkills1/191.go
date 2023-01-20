@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+	result := hammingWeight(00000000000000000000000000001011)
+	fmt.Println(result)
+
+}
+
+// 191. Number of 1 Bits
+func hammingWeight(num uint32) int {
+	result := 0
+	for {
+		if num%2 == 1 {
+			result++
+		}
+		num = num / 2
+		if num == 0 {
+			break
+		}
+	}
+	return result
+}

@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(result)
 }
 
+// 976. Largest Perimeter Triangle
 func largestPerimeter(nums []int) int {
 	sort.Ints(nums)
 	for i := len(nums) - 1; i >= 2; i-- {
