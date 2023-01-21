@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 	result := hammingWeight(00000000000000000000000000001011)
 	fmt.Println(result)
-
 }
 
 // 191. Number of 1 Bits
