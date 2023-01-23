@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	points := [][]int{{1, 2}, {3, 1}, {2, 4}, {2, 3}, {4, 4}}
