@@ -1,17 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
-
-func main() {
-	// fmt.Println(areAlmostEqual("abcd", "dcba"))
-	fmt.Println(areAlmostEqual(
-		"ysmpagrkzsmmzmsssutzgpxrmoylkgemgfcperptsxjcsgojwourhxlhqkxumonfgrczmjvbhwvhpnocz",
-		"ysmpagrqzsmmzmsssutzgpxrmoylkgemgfcperptsxjcsgojwourhxlhkkxumonfgrczmjvbhwvhpnocz"),
-	)
-}
 
 // 1790. Check if One String Swap Can Make Strings Equal
 func areAlmostEqual(s1 string, s2 string) bool {

@@ -1,13 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	input := []int{4000, 3000, 1000, 2000}
-	result := average(input)
-	fmt.Println(result)
-}
-
 // 1491. Average Salary Excluding the Minimum and Maximum Salary
 func average(salary []int) float64 {
 	min := salary[0]

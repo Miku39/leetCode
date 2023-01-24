@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(isHappy(19))
-}
-
 // 202. Happy Number
 func isHappy(n int) bool {
 	previous := []int{n}

@@ -1,15 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
-
-func main() {
-	input := []int{3, 4, 15, 2, 9, 4}
-	result := largestPerimeter(input)
-	fmt.Println(result)
-}
 
 // 976. Largest Perimeter Triangle
 func largestPerimeter(nums []int) int {

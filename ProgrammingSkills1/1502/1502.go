@@ -1,14 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
-
-func main() {
-	result := canMakeArithmeticProgression([]int{3, 5, 1})
-	fmt.Println(result)
-}
 
 // 1502. Can Make Arithmetic Progression From Sequence
 func canMakeArithmeticProgression(arr []int) bool {

@@ -1,12 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	result := hammingWeight(00000000000000000000000000001011)
-	fmt.Println(result)
-}
-
 // 191. Number of 1 Bits
 func hammingWeight(num uint32) int {
 	result := 0

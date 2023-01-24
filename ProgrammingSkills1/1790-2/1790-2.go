@@ -1,21 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	fmt.Println(areAlmostEqual2("npv", "zpn"))
-	// fmt.Println(areAlmostEqual2("npv", "zpn"))
-	// fmt.Println(areAlmostEqual2(
-	// 	"eyapgosevqecyuobikhcpztfrrnuibtpjekygfssnqihtmlnevrwqosktoozmefq",
-	// 	"iexryyjgmazbxegpxxipzoybexebydjwxgarqiysoqexgvelhlbpotlfbnogbvpg"),
-	// )
-}
-
 // 1790. Check if One String Swap Can Make Strings Equal
-func areAlmostEqual2(s1 string, s2 string) bool {
+func areAlmostEqual(s1 string, s2 string) bool {
 	array1 := strings.Split(s1, "")
 	array2 := strings.Split(s2, "")
 
