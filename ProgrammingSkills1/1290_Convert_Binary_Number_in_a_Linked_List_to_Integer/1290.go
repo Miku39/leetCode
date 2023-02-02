@@ -1,13 +1,6 @@
 package main
 
 // 1290. Convert Binary Number in a Linked List to Integer
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 
 type ListNode struct {
 	Val  int
