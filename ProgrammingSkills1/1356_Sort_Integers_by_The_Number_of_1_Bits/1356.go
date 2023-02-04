@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"math/bits"
 	"sort"
 )
 
@@ -12,13 +12,7 @@ func sortByBits(arr []int) []int {
 	bitMap := make(map[int][]int)
 	mapKey := make([]int, 0, 500)
 	for _, v := range arr {
-		binaryNumber := fmt.Sprintf("%b", v)
-		count := 0
-		for _, w := range binaryNumber {
-			if w == '1' {
-				count++
-			}
-		}
+		count := bits.OnesCount(uint(v))
 		array, ok := bitMap[count]
 		if !ok {
 			array = make([]int, 0, 500)
