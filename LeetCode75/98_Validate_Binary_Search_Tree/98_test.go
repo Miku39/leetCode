@@ -8,14 +8,10 @@ func TestIsValidBST(t *testing.T) {
 	input := &TreeNode{
 		Val: 2,
 		Left: &TreeNode{
-			Val:   1,
-			Left:  nil,
-			Right: nil,
+			Val: 1,
 		},
 		Right: &TreeNode{
-			Val:   3,
-			Left:  nil,
-			Right: nil,
+			Val: 3,
 		},
 	}
 	got := isValidBST(input)
@@ -30,21 +26,15 @@ func TestIsValidBST2(t *testing.T) {
 	input := &TreeNode{
 		Val: 5,
 		Left: &TreeNode{
-			Val:   4,
-			Left:  nil,
-			Right: nil,
+			Val: 4,
 		},
 		Right: &TreeNode{
 			Val: 6,
 			Left: &TreeNode{
-				Val:   3,
-				Left:  nil,
-				Right: nil,
+				Val: 3,
 			},
 			Right: &TreeNode{
-				Val:   7,
-				Left:  nil,
-				Right: nil,
+				Val: 7,
 			},
 		},
 	}
