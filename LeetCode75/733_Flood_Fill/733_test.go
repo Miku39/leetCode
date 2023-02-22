@@ -19,7 +19,7 @@ func isSame(a, b [][]int) bool {
 		if len(a[i]) != len(b[i]) {
 			return false
 		}
-		for j, _ := range v {
+		for j := range v {
 			if a[i][j] != b[i][j] {
 				return false
 			}
