@@ -14,8 +14,8 @@ func TestFindAnagrams(t *testing.T) {
 }
 
 func TestFindAnagrams2(t *testing.T) {
-	got := findAnagrams("abab", "ab")
-	want := []int{0, 1, 2}
+	got := findAnagrams("baa", "aa")
+	want := []int{1}
 
 	if !isSame(got, want) {
 		t.Errorf("got %v, wanted %v", got, want)
